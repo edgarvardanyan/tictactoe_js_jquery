@@ -72,3 +72,7 @@ $('td').click(function(event){
         iters++;
     }
 })
+
+$('#reset').click(function(){
+    reset()
+})
