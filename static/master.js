@@ -33,6 +33,7 @@ $('td').click(function(event){
                 $('td').html('')
                 iters = 0
                 matrix = [[0,0,0],[0,0,0],[0,0,0]]
+                $('span').text('X')
             },10)
         }
     }
@@ -42,6 +43,7 @@ $('td').click(function(event){
                 $('td').html('')
                 iters = 0
                 matrix = [[0,0,0],[0,0,0],[0,0,0]]
+                $('span').text('X')
         },10)
     }
 })
