@@ -1,9 +1,16 @@
 td{
+    width: 74px;
+    height: 72px;
+}
+
+table, tr, td{
     border: 1px solid black;
 }
 
 table{
-    table-layout: auto;
-    width: 216px;
-    height: 222px;
+    border-collapse: collapse;
+}
+
+img{
+    margin: auto;
 }
