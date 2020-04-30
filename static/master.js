@@ -60,15 +60,15 @@ $('td').click(function(event){
                 reset();
             },10)
         }
+        else if (iters === 8){
+            // setting timout so that changes will be visible before alert
+            wins['draw'] += 1;
+            setTimeout(function() {
+                alert('game is finished with draw');
+                reset();
+            },10)
+        }
         
         iters++;
-    }
-    if (iters === 9){
-        // setting timout so that changes will be visible before alert
-        wins['draw'] += 1;
-        setTimeout(function() {
-            alert('game is finished with draw');
-            reset();
-        },10)
     }
 })
