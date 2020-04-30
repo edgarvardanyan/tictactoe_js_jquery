@@ -1,0 +1,9 @@
+td{
+    border: 1px solid black;
+}
+
+table{
+    table-layout: auto;
+    width: 216px;
+    height: 222px;
+}
