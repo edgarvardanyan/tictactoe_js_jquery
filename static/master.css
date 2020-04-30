@@ -14,3 +14,7 @@ table{
 img{
     margin: auto;
 }
+
+h1, h2, h4{
+    text-align: center;
+}

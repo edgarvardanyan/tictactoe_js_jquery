@@ -5,31 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TicTacToe</title>
     <link rel="stylesheet" href="static/master.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script
     src="https://code.jquery.com/jquery-3.5.0.slim.min.js"
     integrity="sha256-MlusDLJIP1GRgLrOflUQtshyP0TwT/RHXsI1wWGnQhs="
     crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Welcome to TicTacToe</h1>
-    <h2>It is <span>X</span>'s turn</h2>
-    <table>
-        <tr>
-            <td id='00'></td>
-            <td id='01'></td>
-            <td id='02'></td>
-        </tr>
-        <tr>
-            <td id='10'></td>
-            <td id='11'></td>
-            <td id='12'></td>
-        </tr>
-        <tr>
-            <td id='20'></td>
-            <td id='21'></td>
-            <td id='22'></td>
-        </tr>
-    </table>
+    <div class='container'>
+        <h1>Welcome to TicTacToe</h1>
+        <h2>It is <span id='player'>X</span>'s turn</h2>
+        <table class='mx-auto'>
+            <tr>
+                <td id='00'></td>
+                <td id='01'></td>
+                <td id='02'></td>
+            </tr>
+            <tr>
+                <td id='10'></td>
+                <td id='11'></td>
+                <td id='12'></td>
+            </tr>
+            <tr>
+                <td id='20'></td>
+                <td id='21'></td>
+                <td id='22'></td>
+            </tr>
+        </table>
+        <h4>Wins by X: <span id='xwins'>0</span></h4>
+        <h4>Wins by O: <span id='owins'>0</span></h4>
+        <h4>Draws: <span id='draws'>0</span></h4>
+    </div>
+    
 </body>
 
 <script src='static/master.js'></script>
